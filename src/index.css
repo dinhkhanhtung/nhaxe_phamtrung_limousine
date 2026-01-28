@@ -106,7 +106,7 @@
 
   .card-premium::before {
     content: '';
-    @apply absolute inset-0 rounded-xl;
+    @apply absolute inset-0 rounded-xl pointer-events-none;
     padding: 1px;
     background: linear-gradient(135deg, hsl(43 74% 49% / 0.3), transparent);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);

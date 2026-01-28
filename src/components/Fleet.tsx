@@ -168,8 +168,15 @@ const Fleet = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   {car.description}
                 </p>
-                <Button variant="outline" size="sm" className="w-full" asChild>
-                  <a href="tel:0868752888">Liên hệ báo giá</a>
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => {
+                    document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  Liên hệ báo giá
                 </Button>
               </div>
             </div>

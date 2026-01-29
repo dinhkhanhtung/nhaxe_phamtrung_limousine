@@ -33,7 +33,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="font-display text-xl md:text-2xl font-bold">
+          <a href="/" aria-label="Hataxi - Trang chủ" className="font-display text-xl md:text-2xl font-bold">
             <span className="text-gold-gradient">Nguyễn Hà</span>
           </a>
 

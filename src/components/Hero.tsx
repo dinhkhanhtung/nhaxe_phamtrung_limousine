@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroCar}
-          alt="Premium car rental"
+          alt="Xe cao cấp Hataxi - dịch vụ thuê xe cao cấp"
           className="w-full h-full object-cover"
         />
         {/* Gradient overlays */}

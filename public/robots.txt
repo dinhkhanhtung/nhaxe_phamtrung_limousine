@@ -1,4 +1,4 @@
-Sitemap: https://hataxi.vn/sitemap.xml
+Sitemap: https://dichvuxe-thainguyen.vercel.app/sitemap.xml
 
 User-agent: Googlebot
 Allow: /

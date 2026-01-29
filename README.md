@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# Hataxi — Nguyễn Hà Luxury Rides
+
+Landing code for Hataxi — dịch vụ thuê xe cao cấp (Đặt xe trong 30 giây).
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL (deployed)**: https://nguy-n-h-luxury-rides.vercel.app/
 
-## How can I edit this code?
+## Development
 
-There are several ways of editing your application.
+You can work locally using your preferred IDE or use the provided workflow.
 
-**Use Lovable**
+Requirements:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- Node.js (LTS)
+- npm or pnpm
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Quick start:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Enter project
+cd nguy-n-h-luxury-rides
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install deps
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project can be deployed to Vercel (recommended) or any static hosting that supports SPAs.
 
-**Use GitHub Codespaces**
+To deploy on Vercel:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Connect this repository in Vercel dashboard.
+2. Use default build command `npm run build` and output directory `dist` (Vite default).
+3. Add a custom domain in Project Settings if needed.
 
-## What technologies are used for this project?
-
-This project is built with:
+## Technologies
 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui
 
-## How can I deploy this project?
+## Notes
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Open Graph and Twitter Card metadata have been set in `index.html` for better sharing previews.
+- A `sitemap.xml` and `robots.txt` are included in `public/` to help search engines index the site.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+If you need help with Search Console, Lighthouse audits or deploying a custom domain, tell me and I will guide you step-by-step.

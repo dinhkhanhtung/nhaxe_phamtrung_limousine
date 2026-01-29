@@ -1,6 +1,6 @@
-# Hataxi — Nguyễn Hà Luxury Rides
+# Thuê Xe Nguyễn Hà
 
-Landing code for Hataxi — dịch vụ thuê xe cao cấp (Đặt xe trong 30 giây).
+Landing page cho dịch vụ thuê xe đa dạng: du lịch, cưới, sân bay, hợp đồng dài hạn và các dịch vụ xe chuyên nghiệp tại Thái Nguyên.
 
 ## Project info
 

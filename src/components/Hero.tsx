@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroCar}
-          alt="Xe cao cấp Hataxi - dịch vụ thuê xe cao cấp"
+          alt="Xe cao cấp Nguyễn Hà - dịch vụ thuê xe cao cấp"
           className="w-full h-full object-cover"
         />
         {/* Gradient overlays */}
@@ -31,20 +31,20 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6 animate-fade-up">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-            <span className="text-sm text-primary font-medium">Dịch vụ cho thuê xe cao cấp</span>
+            <span className="text-sm text-primary font-medium">Thuê xe đa dạng - Dịch vụ chuyên nghiệp</span>
           </div>
 
           {/* Heading */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-foreground">Thương Hiệu</span>
+            <span className="text-foreground">Xe Cao Cấp</span>
             <br />
             <span className="text-gold-gradient">Nguyễn Hà</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Cho thuê xe du lịch, xe cưới và xe hợp đồng chất lượng cao tại Thái Nguyên. 
-            Đội xe hiện đại, tài xế chuyên nghiệp, dịch vụ tận tâm.
+            Dịch vụ thuê xe đa dạng: du lịch, cưới, sân bay, hợp đồng dài hạn và nhiều dịch vụ khác. 
+            Xe hiện đại, tài xế chuyên nghiệp, phục vụ tận tâm tại Thái Nguyên.
           </p>
 
           {/* CTAs */}

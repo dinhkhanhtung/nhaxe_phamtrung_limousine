@@ -8,11 +8,12 @@ const StickyContactBar = () => {
   return (
     <div className="fixed bottom-6 right-4 md:right-6 z-50 flex flex-col gap-3">
       {/* Zalo Button */}
+      {/* Zalo Button */}
       <a
         href={zaloLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="floating-btn w-12 h-12 md:w-14 md:h-14 bg-[#0068FF] hover:bg-[#0054CC] text-white animate-pulse-glow"
+        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 bg-[#0068FF] hover:bg-[#0054CC] text-white animate-pulse-glow hover:scale-110"
         aria-label="Chat Zalo"
       >
         <MessageCircle className="w-5 h-5 md:w-6 md:h-6" />
@@ -21,7 +22,7 @@ const StickyContactBar = () => {
       {/* Phone Button */}
       <a
         href={phoneLink}
-        className="floating-btn w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-gold to-gold-dark text-primary-foreground"
+        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-gold to-gold-dark text-primary-foreground hover:scale-110"
         aria-label="Gọi điện"
       >
         <Phone className="w-5 h-5 md:w-6 md:h-6" />

@@ -1,18 +1,18 @@
 export interface BlogPost {
-    title: string;
-    excerpt: string;
-    content: string;
-    image: string;
-    date: string;
-    slug: string;
-    author: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  image: string;
+  date: string;
+  slug: string;
+  author: string;
 }
 
 export const blogs: BlogPost[] = [
-    {
-        title: "Kinh nghiệm đặt xe đi Thái Nguyên tiết kiệm và an toàn nhất 2024",
-        excerpt: "Tổng hợp những bí quyết 'xương máu' giúp bạn có chuyến đi Thái Nguyên trọn vẹn: từ cách săn giá rẻ, chọn loại xe phù hợp cho đến những lưu ý an toàn quan trọng.",
-        content: `
+  {
+    title: "Kinh nghiệm đặt xe đi Thái Nguyên tiết kiệm và an toàn nhất 2024",
+    excerpt: "Tổng hợp những bí quyết 'xương máu' giúp bạn có chuyến đi Thái Nguyên trọn vẹn: từ cách săn giá rẻ, chọn loại xe phù hợp cho đến những lưu ý an toàn quan trọng.",
+    content: `
       <h2>1. Tại sao nên chọn thuê xe riêng thay vì xe khách?</h2>
       <p>Trong những năm gần đây, xu hướng thuê xe riêng đi tuyến Hà Nội - Thái Nguyên đang ngày càng phổ biến. So với xe khách hay xe limousine, xe riêng mang lại nhiều lợi ích vượt trội:</p>
       <ul>
@@ -59,19 +59,21 @@ export const blogs: BlogPost[] = [
       </ul>
       <p>Đừng ngần ngại liên hệ hotline <strong>0868.752.888</strong> để được tư vấn lộ trình và báo giá tốt nhất cho chuyến đi sắp tới của bạn!</p>
     `,
-        image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=1000",
-        date: "15/03/2024",
-        slug: "kinh-nghiem-dat-xe-tiet-kiem",
-        author: "Admin"
-    },
-    {
-        title: "Cẩm nang du lịch Thái Nguyên: Top danh lam thắng cảnh đẹp mê hồn",
-        excerpt: "Khám phá vẻ đẹp tiềm ẩn của vùng đất 'Đệ nhất danh trà'. Lịch trình chi tiết khám phá Hồ Núi Cốc, Hang Phượng Hoàng và những đồi chè xanh ngát.",
-        content: `
+    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=1000",
+    date: "15/03/2024",
+    slug: "kinh-nghiem-dat-xe-tiet-kiem",
+    author: "Admin"
+  },
+  {
+    title: "Cẩm nang du lịch Thái Nguyên: Top danh lam thắng cảnh đẹp mê hồn",
+    excerpt: "Khám phá vẻ đẹp tiềm ẩn của vùng đất 'Đệ nhất danh trà'. Lịch trình chi tiết khám phá Hồ Núi Cốc, Hang Phượng Hoàng và những đồi chè xanh ngát.",
+    content: `
       <h2>Giới thiệu Thái Nguyên - Thủ đô gió ngàn</h2>
       <p>Cách thủ đô Hà Nội khoảng 75km, Thái Nguyên không chỉ nổi tiếng là vùng đất của những đồi chè xanh mướt mà còn sở hữu phong cảnh sơn thủy hữu tình cùng bề dày lịch sử văn hóa. Đây là điểm đến lý tưởng cho những chuyến đi cuối tuần (weekend getaway) để "trốn" khỏi khói bụi thành phố.</p>
+      <img src="https://images.unsplash.com/photo-1504280509243-48907c3c9bea?auto=format&fit=crop&q=80&w=900" alt="Phong cảnh Thái Nguyên" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:400px;" />
 
       <h2>1. Hồ Núi Cốc - Vịnh Hạ Long trên cạn</h2>
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=900" alt="Hồ núi Cốc Thái Nguyên" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:380px;" />
       <p>Đây là quần thể du lịch sinh thái nổi tiếng nhất Thái Nguyên, gắn liền với huyền thoại bi thương nhưng lãng mạn về chàng Cốc và nàng Công. Hồ Núi Cốc rộng mênh mông với 89 hòn đảo lớn nhỏ, thiên nhiên ưu đãi khí hậu mát mẻ quanh năm.</p>
       
       <h3>Trải nghiệm không thể bỏ qua tại Hồ Núi Cốc:</h3>
@@ -82,10 +84,12 @@ export const blogs: BlogPost[] = [
       </ul>
 
       <h2>2. Khu di tích lịch sử ATK Định Hóa</h2>
+      <img src="https://images.unsplash.com/photo-1588392382834-a891154bca4d?auto=format&fit=crop&q=80&w=900" alt="Rừng núi ATK Định Hóa" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:380px;" />
       <p>Nằm ở cực Bắc tỉnh Thái Nguyên, ATK (An toàn khu) Định Hóa là nơi Chủ tịch Hồ Chí Minh và các lãnh đạo Đảng đã sống và làm việc trong thời kỳ kháng chiến chống Pháp (1947-1954). Đây là địa chỉ đỏ giáo dục truyền thống cách mạng.</p>
       <p>Các điểm tham quan chính: Nhà tưởng niệm Bác Hồ trên đỉnh đèo De, lán Tỉn Keo, đồi Phong Tướng. Khung cảnh nơi đây vẫn giữ được nét hoang sơ, yên bình của núi rừng Việt Bắc.</p>
 
       <h2>3. Đồi chè Tân Cương - Nơi ra đời vị trà danh tiếng</h2>
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=900" alt="Đồi chè Tân Cương xanh ngát" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:380px;" />
       <p>Không gì thư thái hơn việc dạo bước giữa những luống chè xanh mướt chạy dài tít tắp dưới nắng sớm. Vùng chè Tân Cương cách trung tâm thành phố chỉ khoảng 10km về phía Tây.</p>
       <p>Tại đây, du khách có thể:</p>
       <ul>
@@ -95,13 +99,16 @@ export const blogs: BlogPost[] = [
       </ul>
 
       <h2>4. Hang Phượng Hoàng - Suối Mỏ Gà</h2>
+      <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&q=80&w=900" alt="Hang động Phượng Hoàng" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:380px;" />
       <p>Được mệnh danh là "Đệ nhất động" của Thái Nguyên, quần thể này nằm tại huyện Võ Nhai. Hang Phượng Hoàng nằm trên đỉnh núi cao, vòm hang rộng với hàng ngàn nhũ đá lung linh kỳ ảo hình chim phượng, hổ phục, voi chầu...</p>
       <p>Ngay dưới chân núi là Suối Mỏ Gà chảy ra từ trong lòng hang, nước trong vắt và mát lạnh. Vào mùa hè, được ngâm mình trong làn nước suối này thì mọi oi bức đều tan biến.</p>
 
       <h2>5. Trại ngựa Bá Vân</h2>
+      <img src="https://images.unsplash.com/photo-1534773728080-ef87b0b4be2b?auto=format&fit=crop&q=80&w=900" alt="Trại ngựa thảo nguyên Bá Vân" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:380px;" />
       <p>Một địa điểm check-in mới nổi dành cho giới trẻ. Nằm trên một vùng thảo nguyên rộng lớn, trại ngựa Bá Vân mang vẻ đẹp phóng khoáng như những thước phim điện ảnh Mông Cổ. Nếu may mắn, bạn sẽ được ngắm nhìn đàn ngựa hàng trăm con đang thong dong gặm cỏ.</p>
 
       <h2>Ẩm thực Thái Nguyên có gì ngon?</h2>
+      <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=900" alt="Ẩm thực đặc sản Thái Nguyên" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:300px;" />
       <p>Đừng quên thưởng thức các món đặc sản:</p>
       <ul>
         <li><strong>Bánh chưng Bờ Đậu:</strong> Bánh chưng gói bằng lá dong rừng, gạo nếp nương, luộc bằng nước giếng khơi tạo nên hương vị dẻo thơm đặc biệt.</li>
@@ -111,15 +118,15 @@ export const blogs: BlogPost[] = [
 
       <p>Để chuyến du lịch trọn vẹn, hãy liên hệ <strong>Nguyễn Hà Car Rental</strong> để đặt xe đưa đón tận nơi. Chúng tôi có các dòng xe phù hợp cho cả gia đình và nhóm bạn với cốp rộng để thoải mái đựng quà đặc sản mang về!</p>
     `,
-        image: "https://images.unsplash.com/photo-1504280509243-48907c3c9bea?auto=format&fit=crop&q=80&w=1000",
-        date: "12/03/2024",
-        slug: "top-5-diem-den-thai-nguyen",
-        author: "Thu Hà"
-    },
-    {
-        title: "Dịch vụ xe đưa đón sân bay Nội Bài đi Thái Nguyên: Tiện nghi, Đúng giờ",
-        excerpt: "Giải pháp di chuyển tối ưu từ sân bay Nội Bài về Thái Nguyên. So sánh chi phí các phương tiện và lý do bạn nên chọn xe riêng đưa đón sân bay.",
-        content: `
+    image: "https://images.unsplash.com/photo-1504280509243-48907c3c9bea?auto=format&fit=crop&q=80&w=1000",
+    date: "12/03/2024",
+    slug: "top-5-diem-den-thai-nguyen",
+    author: "Thu Hà"
+  },
+  {
+    title: "Dịch vụ xe đưa đón sân bay Nội Bài đi Thái Nguyên: Tiện nghi, Đúng giờ",
+    excerpt: "Giải pháp di chuyển tối ưu từ sân bay Nội Bài về Thái Nguyên. So sánh chi phí các phương tiện và lý do bạn nên chọn xe riêng đưa đón sân bay.",
+    content: `
       <h2>Nỗi ám ảnh mang tên "Di chuyển từ sân bay"</h2>
       <p>Bạn vừa trải qua một chuyến bay dài mệt mỏi, vừa đáp xuống sân bay Nội Bài với lỉnh kỉnh hành lý. Điều bạn muốn nhất lúc này là gì? Chắc chắn là được về nhà nhanh nhất có thể.</p>
       <p>Tuy nhiên, thực tế thường không như mơ:</p>
@@ -169,9 +176,9 @@ export const blogs: BlogPost[] = [
       
       <p>Đừng để chặng đường từ sân bay về nhà làm hỏng niềm vui chuyến đi của bạn. Hãy để Nguyễn Hà phục vụ bạn với chất lượng 5 sao!</p>
     `,
-        image: "https://images.unsplash.com/photo-1554672408-730436b60dde?auto=format&fit=crop&q=80&w=1000",
-        date: "10/03/2024",
-        slug: "xe-dua-don-san-bay-noi-bai-thai-nguyen",
-        author: "Admin"
-    }
+    image: "https://images.unsplash.com/photo-1554672408-730436b60dde?auto=format&fit=crop&q=80&w=1000",
+    date: "10/03/2024",
+    slug: "xe-dua-don-san-bay-noi-bai-thai-nguyen",
+    author: "Admin"
+  }
 ];

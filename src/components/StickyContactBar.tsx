@@ -18,7 +18,7 @@ const StickyContactBar = () => {
         <img 
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3DrZoAwHqbR-DuIy32rVDU8jhXVN5BI1EFLFgt6TLycc0Ww9n1xenD4_7rMP4_jgdvHbyu_2GuTN2hO7nLrTMCXG0FRtxB8eMRVfep-xD-fBupQ-cbgJhURHIRyb7pruocOhes_T0Ha1pFftDu2wJ3r-DkNlCUELll4-KmsE5uA_5oBKc26GveRQf6x7N/s1600/Icon_of_Zalo.svg.webp"
           alt="Zalo"
-          className="w-5 h-5 md:w-6 md:h-6"
+          className="w-7 h-7 md:w-8 md:h-8"
         />
       </a>
 

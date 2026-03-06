@@ -47,7 +47,7 @@ const HowItWorks = () => {
                     {steps.map((step, index) => (
                         <div key={index} className="flex flex-col items-center text-center group">
                             <div className="w-20 h-20 rounded-full bg-card border border-primary/20 flex items-center justify-center mb-6 shadow-lg shadow-primary/5 group-hover:scale-110 group-hover:border-primary transition-all duration-300 relative z-10">
-                                <step.icon className="w-9 h-9 text-gold-gradient" />
+                                <step.icon className="w-9 h-9 text-primary" />
                             </div>
                             <h3 className="text-xl font-bold mb-3 font-playfair">{step.title}</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed max-w-[200px]">

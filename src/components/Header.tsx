@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Dịch vụ", href: "#services" },
-  { label: "Đội xe", href: "#fleet" },
-  { label: "Đánh giá", href: "#testimonials" },
-  { label: "Liên hệ", href: "#contact" },
+  { label: "Dịch vụ", href: "/#services" },
+  { label: "Đội xe", href: "/#fleet" },
+  { label: "Đánh giá", href: "/#testimonials" },
+  { label: "Liên hệ", href: "/#contact" },
 ];
 
 const Header = () => {
@@ -24,11 +24,10 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? "bg-background/90 backdrop-blur-md border-b border-border/50 py-3"
           : "bg-transparent py-5"
-      }`}
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">

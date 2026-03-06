@@ -14,7 +14,30 @@ const BlogPost = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [slug]);
+        if (blog) {
+            document.title = `${blog.title} | Thuê Xe Nguyễn Hà`;
+            const meta = document.querySelector('meta[name="description"]');
+            if (meta) meta.setAttribute("content", blog.excerpt);
+        }
+        return () => {
+            document.title = "Thuê Xe Nguyễn Hà - Dịch Vụ Thuê Xe Đa Dạng & Chuyên Nghiệp";
+            const meta = document.querySelector('meta[name="description"]');
+            if (meta) meta.setAttribute("content", "Thuê Xe Nguyễn Hà - Dịch vụ thuê xe đa dạng: du lịch, cưới, sân bay, hợp đồng. Xe hiện đại, tài xế chuyên nghiệp, giá cạnh tranh tại Thái Nguyên.");
+        };
+    }, [slug, blog]);
+
+    const handleShare = async () => {
+        if (navigator.share) {
+            await navigator.share({
+                title: blog?.title,
+                text: blog?.excerpt,
+                url: window.location.href,
+            });
+        } else {
+            await navigator.clipboard.writeText(window.location.href);
+            alert("Đã sao chép link bài viết!");
+        }
+    };
 
     if (!blog) {
         return (
@@ -66,6 +89,7 @@ const BlogPost = () => {
                         <h1 className="text-3xl md:text-5xl font-bold font-playfair leading-tight">
                             {blog.title}
                         </h1>
+                        <p className="text-lg text-muted-foreground leading-relaxed">{blog.excerpt}</p>
                     </div>
                 </div>
 
@@ -82,11 +106,13 @@ const BlogPost = () => {
                 {/* Article Content */}
                 <article className="container px-4 mx-auto max-w-3xl">
                     <div
-                        className="prose prose-invert prose-lg max-w-none 
-              prose-headings:font-playfair prose-headings:text-gold-gradient
+                        className="prose prose-invert prose-lg max-w-none
+              prose-headings:font-playfair prose-headings:text-primary
               prose-p:text-muted-foreground prose-p:leading-relaxed
               prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-              prose-strong:text-white prose-li:text-muted-foreground"
+              prose-strong:text-white prose-li:text-muted-foreground
+              prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4
+              prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3"
                         dangerouslySetInnerHTML={{ __html: blog.content }}
                     />
 
@@ -94,7 +120,7 @@ const BlogPost = () => {
                         <Button variant="outline" className="gap-2" onClick={() => navigate("/")}>
                             <ArrowLeft className="w-4 h-4" /> Xem bài viết khác
                         </Button>
-                        <Button variant="ghost" className="gap-2 text-muted-foreground hover:text-primary">
+                        <Button variant="ghost" className="gap-2 text-muted-foreground hover:text-primary" onClick={handleShare}>
                             <Share2 className="w-4 h-4" /> Chia sẻ
                         </Button>
                     </div>
@@ -108,3 +134,4 @@ const BlogPost = () => {
 };
 
 export default BlogPost;
+

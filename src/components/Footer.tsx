@@ -82,7 +82,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 Nguyễn Hà. Tất cả quyền được bảo lưu.
+            © 2026 Nguyễn Hà. Tất cả quyền được bảo lưu.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Điều khoản</a>

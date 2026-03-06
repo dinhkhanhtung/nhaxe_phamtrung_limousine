@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from "lucide-react";
+import { Phone } from "lucide-react";
 
 const StickyContactBar = () => {
   const phoneNumber = "0868752888";
@@ -12,7 +12,8 @@ const StickyContactBar = () => {
         href={zaloLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 hover:scale-110 bg-white"
+        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 hover:scale-110 bg-white animate-bounce"
+        style={{ animationDuration: "2s" }}
         aria-label="Chat Zalo"
       >
         <img
@@ -25,7 +26,7 @@ const StickyContactBar = () => {
       {/* Phone Button */}
       <a
         href={phoneLink}
-        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-gold to-gold-dark text-primary-foreground hover:scale-110"
+        className="flex items-center justify-center rounded-full shadow-lg transition-all duration-300 w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-gold to-gold-dark text-primary-foreground hover:scale-110 animate-pulse-glow"
         aria-label="Gọi điện"
       >
         <Phone className="w-5 h-5 md:w-6 md:h-6" />
@@ -35,3 +36,4 @@ const StickyContactBar = () => {
 };
 
 export default StickyContactBar;
+

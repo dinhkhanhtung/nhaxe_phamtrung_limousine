@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
             <div className="container px-4 mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <h2 className="text-3xl md:text-4xl font-bold font-playfair bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
-                        Tại Sao Chọn <span className="text-gold-gradient">Nguyễn Hà</span>
+                        Tại Sao Chọn <span className="text-gold-gradient">Phạm Trung Limousine</span>
                     </h2>
                     <p className="text-muted-foreground text-lg">
                         Chúng tôi cam kết mang đến trải nghiệm di chuyển đẳng cấp, an toàn và tiện lợi nhất cho mỗi hành trình của bạn.

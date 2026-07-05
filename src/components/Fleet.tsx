@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Users, Zap, Crown, Car } from "lucide-react";
+import vinfastWhite from "@/assets/vinfast-white.jpg";
+import vinfastBlack from "@/assets/vinfast-black.jpg";
 
 interface CarType {
   id: string;
   name: string;
   brand: string;
   seats: number;
-  category: "sedan" | "electric" | "luxury" | "multi";
+  price: string;
+  category: "ghep" | "bao" | "other";
   image: string;
   description: string;
 }
@@ -15,75 +18,61 @@ interface CarType {
 const cars: CarType[] = [
   {
     id: "1",
-    name: "Toyota Camry",
-    brand: "Toyota",
+    name: "Vé Lẻ Xe Ghép",
+    brand: "Tuyến Thái Nguyên - Hà Nội",
     seats: 5,
-    category: "sedan",
-    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&auto=format&fit=crop&q=60",
-    description: "Sedan cao cấp, tiện nghi, phù hợp công tác và du lịch",
+    price: "150K/người",
+    category: "ghep",
+    image: vinfastWhite,
+    description: "Xe ghép đón tận nhà, trả tận nơi cực kỳ tiện lợi và tiết kiệm. Khởi hành liên tục 24/7.",
   },
   {
     id: "2",
-    name: "VinFast VF7",
-    brand: "VinFast",
+    name: "Bao Xe 4 Chỗ",
+    brand: "Xe điện VinFast VF8/VF7 VIP",
     seats: 5,
-    category: "electric",
-    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&auto=format&fit=crop&q=60",
-    description: "Xe điện thông minh, hiện đại, thân thiện môi trường",
+    price: "500K/lượt",
+    category: "bao",
+    image: vinfastBlack,
+    description: "Không gian riêng tư, sang trọng, đẳng cấp thương gia. Thích hợp đi công tác, đưa đón đối tác.",
   },
   {
     id: "3",
-    name: "VinFast VF8",
-    brand: "VinFast",
-    seats: 5,
-    category: "electric",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=60",
-    description: "SUV điện cao cấp, không gian rộng rãi, công nghệ tiên tiến",
+    name: "Bao Xe 7 Chỗ",
+    brand: "SUV Fortuner / Everest",
+    seats: 7,
+    price: "650K/lượt",
+    category: "bao",
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&auto=format&fit=crop&q=60",
+    description: "Xe SUV 7 chỗ gầm cao, khoang hành khách và hành lý cực kỳ rộng rãi cho gia đình và nhóm bạn.",
   },
   {
     id: "4",
-    name: "Mercedes-Benz S-Class",
-    brand: "Mercedes",
+    name: "Bao Xe Bán Tải",
+    brand: "Ford Ranger / Hilux",
     seats: 5,
-    category: "luxury",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=60",
-    description: "Dòng xe sang bậc nhất, đẳng cấp VIP cho dịp đặc biệt",
+    price: "650K/lượt",
+    category: "bao",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
+    description: "Dòng xe bán tải đời mới khỏe khoắn, gầm cao, tải đồ thoải mái cho các hành trình đa dụng.",
   },
   {
     id: "5",
-    name: "Toyota Fortuner",
-    brand: "Toyota",
-    seats: 7,
-    category: "multi",
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&auto=format&fit=crop&q=60",
-    description: "SUV 7 chỗ rộng rãi, phù hợp gia đình và nhóm bạn",
-  },
-  {
-    id: "6",
-    name: "Ford Everest",
-    brand: "Ford",
-    seats: 7,
-    category: "multi",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
-    description: "SUV 7 chỗ mạnh mẽ, off-road tốt, tiện nghi cao cấp",
-  },
-  {
-    id: "7",
-    name: "Ford Transit",
-    brand: "Ford",
-    seats: 16,
-    category: "multi",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&auto=format&fit=crop&q=60",
-    description: "Xe 16 chỗ lý tưởng cho đoàn du lịch và sự kiện",
+    name: "Gửi Đồ Ship Hỏa Tốc",
+    brand: "Giao nhận tận nơi 24/7",
+    seats: 0,
+    price: "Từ 50K",
+    category: "other",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&auto=format&fit=crop&q=60",
+    description: "Vận chuyển hàng hóa, giấy tờ hỏa tốc an toàn, đúng giờ giữa Thái Nguyên - Hà Nội - Sân bay.",
   },
 ];
 
 const filters = [
-  { id: "all", label: "Tất cả", icon: Car },
-  { id: "sedan", label: "Sedan", icon: Car },
-  { id: "electric", label: "Xe điện", icon: Zap },
-  { id: "luxury", label: "Hạng sang", icon: Crown },
-  { id: "multi", label: "Nhiều chỗ", icon: Users },
+  { id: "all", label: "Tất cả dịch vụ", icon: Car },
+  { id: "ghep", label: "Xe Ghép Lẻ", icon: Users },
+  { id: "bao", label: "Bao Xe Riêng", icon: Crown },
+  { id: "other", label: "Dịch Vụ Khác", icon: Zap },
 ];
 
 const Fleet = () => {
@@ -98,12 +87,12 @@ const Fleet = () => {
       <div className="container mx-auto px-4">
         {/* Section header */}
         <div className="text-center mb-12">
-          <span className="text-primary font-medium text-sm uppercase tracking-wider">Đội xe</span>
+          <span className="text-primary font-medium text-sm uppercase tracking-wider">Bảng giá & Dịch vụ</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 mb-4">
-            Đội Xe <span className="text-gold-gradient">Đa Dạng</span>
+            Bảng Giá <span className="text-gold-gradient">Dịch Vụ Xe</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Từ sedan sang trọng đến xe 16 chỗ, đáp ứng mọi nhu cầu di chuyển của bạn
+            Hệ thống xe đời mới hiện đại, đón tận nhà trả tận nơi với mức giá cạnh tranh nhất thị trường.
           </p>
         </div>
 
@@ -124,59 +113,73 @@ const Fleet = () => {
         </div>
 
         {/* Car grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {filteredCars.map((car) => (
             <div
               key={car.id}
-              className="card-premium overflow-hidden group"
+              className="card-premium overflow-hidden group flex flex-col justify-between"
             >
-              {/* Image */}
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={car.image}
-                  alt={car.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                
-                {/* Seats badge */}
-                <div className="absolute bottom-3 left-3 flex items-center gap-1 px-2 py-1 rounded-full bg-primary/90 text-primary-foreground text-xs font-medium">
-                  <Users className="w-3 h-3" />
-                  {car.seats} chỗ
+              <div>
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src={car.image}
+                    alt={car.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                  
+                  {/* Seats badge */}
+                  {car.seats > 0 && (
+                    <div className="absolute bottom-3 left-3 flex items-center gap-1 px-2 py-1 rounded-full bg-primary/90 text-primary-foreground text-xs font-medium">
+                      <Users className="w-3 h-3" />
+                      {car.seats} chỗ
+                    </div>
+                  )}
+
+                  {/* Category badge */}
+                  {car.category === "bao" && (
+                    <div className="absolute top-3 right-3 flex items-center gap-1 px-2 py-1 rounded-full bg-primary text-primary-foreground text-xs font-medium">
+                      <Crown className="w-3 h-3" />
+                      VIP
+                    </div>
+                  )}
+                  {car.category === "ghep" && (
+                    <div className="absolute top-3 right-3 flex items-center gap-1 px-2 py-1 rounded-full bg-success text-success-foreground text-xs font-medium">
+                      <Users className="w-3 h-3" />
+                      Giá Rẻ
+                    </div>
+                  )}
                 </div>
 
-                {/* Category badge */}
-                {car.category === "luxury" && (
-                  <div className="absolute top-3 right-3 flex items-center gap-1 px-2 py-1 rounded-full bg-primary text-primary-foreground text-xs font-medium">
-                    <Crown className="w-3 h-3" />
-                    VIP
+                {/* Content */}
+                <div className="p-5">
+                  <div className="flex justify-between items-start mb-2 gap-2">
+                    <h3 className="font-display text-lg font-bold text-foreground line-clamp-1">
+                      {car.name}
+                    </h3>
                   </div>
-                )}
-                {car.category === "electric" && (
-                  <div className="absolute top-3 right-3 flex items-center gap-1 px-2 py-1 rounded-full bg-success text-success-foreground text-xs font-medium">
-                    <Zap className="w-3 h-3" />
-                    Điện
-                  </div>
-                )}
+                  <p className="text-xs text-muted-foreground mb-3 font-semibold">{car.brand}</p>
+                  <p className="text-sm text-muted-foreground mb-4 leading-relaxed line-clamp-3">
+                    {car.description}
+                  </p>
+                </div>
               </div>
 
-              {/* Content */}
-              <div className="p-5">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-1">
-                  {car.name}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  {car.description}
-                </p>
+              <div className="p-5 pt-0">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-xs text-muted-foreground">Giá cước:</span>
+                  <span className="text-lg font-bold text-primary">{car.price}</span>
+                </div>
                 <Button 
-                  variant="outline" 
+                  variant="gold" 
                   size="sm" 
                   className="w-full"
                   onClick={() => {
                     document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
                   }}
                 >
-                  Liên hệ báo giá
+                  Đặt Xe Ngay
                 </Button>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react";
 
 const StickyContactBar = () => {
-  const phoneNumber = "0868752888";
+  const phoneNumber = "0981528528";
   const zaloLink = `https://zalo.me/${phoneNumber}`;
   const phoneLink = `tel:${phoneNumber}`;
 
@@ -17,7 +17,7 @@ const StickyContactBar = () => {
         aria-label="Chat Zalo"
       >
         <img
-          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3DrZoAwHqbR-DuIy32rVDU8jhXVN5BI1EFLFgt6TLycc0Ww9n1xenD4_7rMP4_jgdvHbyu_2GuTN2hO7nLrTMCXG0FRtxB8eMRVfep-xD-fBupQ-cbgJhURHIRyb7pruocOhes_T0Ha1pFftDu2wJ3r-DkNlCUELll4-KmsE5uA_5oBKc26GveRQf6x7N/s1600/Icon_of_Zalo.svg.webp"
+          src="https://i.ibb.co/Wjz9N4P/AVv-Xs-Eg3-Dr-Zo-Aw-Hqb-R-Du-Iy32r-VDU8jh-XVN5-BI1-EFLFgt6-TLycc0-Ww9n1xen-D4-7r-MP4-jgdv-Hbyu-2-Gu-TN2h-O.png"
           alt="Zalo"
           className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover"
         />

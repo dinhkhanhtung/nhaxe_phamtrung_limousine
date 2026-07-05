@@ -32,8 +32,8 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="/" aria-label="Thuê Xe Nguyễn Hà - Trang chủ" className="font-display text-xl md:text-2xl font-bold">
-            <span className="text-gold-gradient">Nguyễn Hà</span>
+          <a href="/" aria-label="Nhà Xe Phạm Trung Limousine - Trang chủ" className="font-display text-xl md:text-2xl font-bold">
+            <span className="text-gold-gradient">Phạm Trung</span>
           </a>
 
           {/* Desktop Nav */}
@@ -52,9 +52,9 @@ const Header = () => {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="gold" size="sm" asChild>
-              <a href="tel:0868752888">
+              <a href="tel:0981528528">
                 <Phone className="w-4 h-4" />
-                0868 752 888
+                0981 528 528
               </a>
             </Button>
           </div>
@@ -84,9 +84,9 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="gold" size="sm" className="mt-2" asChild>
-                <a href="tel:0868752888">
+                <a href="tel:0981528528">
                   <Phone className="w-4 h-4" />
-                  0868 752 888
+                  0981 528 528
                 </a>
               </Button>
             </div>

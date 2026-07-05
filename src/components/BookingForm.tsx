@@ -7,12 +7,12 @@ import { Calendar, MapPin, Clock, Car, Send, AlertCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const carTypes = [
-  { value: "sedan", label: "Sedan (Toyota Camry)" },
-  { value: "vinfast-vf7", label: "VinFast VF7" },
-  { value: "vinfast-vf8", label: "VinFast VF8" },
-  { value: "luxury", label: "Mercedes-Benz S-Class" },
-  { value: "7-seat", label: "7 chỗ (Fortuner/Everest)" },
-  { value: "16-seat", label: "16 chỗ (Ford Transit)" },
+  { value: "ghep", label: "Vé lẻ xe ghép Thái Nguyên - Hà Nội (150K/người)" },
+  { value: "bao-4", label: "Bao xe 4 chỗ (500K/lượt)" },
+  { value: "bao-7", label: "Bao xe 7 chỗ (650K/lượt)" },
+  { value: "ban-tai", label: "Bao xe bán tải (650K/lượt)" },
+  { value: "gui-do", label: "Gửi đồ ship hỏa tốc" },
+  { value: "hop-dong", label: "Hợp đồng xe (Du lịch, Sự kiện, Công ty)" },
 ];
 
 const BookingForm = () => {
@@ -79,11 +79,11 @@ const BookingForm = () => {
 📍 Điểm đến: ${formData.dropoffLocation}
 📅 Ngày: ${new Date(formData.date).toLocaleDateString("vi-VN")}
 ⏰ Giờ: ${formData.time}
-🚗 Loại xe: ${carTypes.find((c) => c.value === formData.carType)?.label || formData.carType}
-📱 SĐT: ${formData.phone}`;
+🚗 Loại dịch vụ: ${carTypes.find((c) => c.value === formData.carType)?.label || formData.carType}
+📱 SĐT liên hệ: ${formData.phone}`;
 
       // Open Zalo with pre-filled message
-      const zaloUrl = `https://zalo.me/0868752888?text=${encodeURIComponent(message)}`;
+      const zaloUrl = `https://zalo.me/0981528528?text=${encodeURIComponent(message)}`;
       window.open(zaloUrl, "_blank");
 
       // Show success message

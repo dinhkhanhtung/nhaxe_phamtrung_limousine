@@ -1,29 +1,29 @@
-import { MapPin, Plane, Heart, Calendar } from "lucide-react";
+import { Car, Plane, Zap, Calendar } from "lucide-react";
 
 const services = [
   {
-    icon: MapPin,
-    title: "Du lịch theo tua",
-    description: "Đưa đón khách du lịch tham quan các điểm đến trong và ngoài tỉnh. Tài xế am hiểu địa phương, phục vụ nhiệt tình.",
-    features: ["Thái Nguyên - Hà Nội", "Thái Nguyên - Hạ Long", "Tour miền Bắc"],
-  },
-  {
-    icon: Heart,
-    title: "Xe cưới & Ăn hỏi",
-    description: "Dịch vụ xe hoa cô dâu, xe ăn hỏi sang trọng. Trang trí đẹp mắt, đúng giờ, tạo ấn tượng cho ngày trọng đại.",
-    features: ["Xe hoa cô dâu", "Xe ăn hỏi", "Trang trí theo yêu cầu"],
-  },
-  {
-    icon: Plane,
-    title: "Đưa đón sân bay",
-    description: "Dịch vụ đưa đón sân bay Nội Bài chuyên nghiệp. Theo dõi chuyến bay, đón đúng giờ, hỗ trợ hành lý.",
-    features: ["Sân bay Nội Bài", "Liên tỉnh", "Đúng giờ 100%"],
+    icon: Car,
+    title: "Xe Ghép 24/7",
+    description: "Dịch vụ xe ghép đón tận nhà, trả tận nơi tuyến Thái Nguyên - Hà Nội - Sân bay. Tần suất liên tục, tiết kiệm chi phí tối đa.",
+    features: ["Thái Nguyên - Hà Nội", "Đón tận nhà - Trả tận nơi", "Giá chỉ 150K/người"],
   },
   {
     icon: Calendar,
-    title: "Thuê xe hợp đồng",
-    description: "Cho thuê xe tháng, hợp đồng dài hạn cho doanh nghiệp. Giá cạnh tranh, linh hoạt, bảo dưỡng định kỳ.",
-    features: ["Thuê tháng", "Hợp đồng năm", "Giá doanh nghiệp"],
+    title: "Nhận Xe Hợp Đồng",
+    description: "Nhận hợp đồng xe du lịch, sự kiện, hiếu hỷ, đưa đón cán bộ công nhân viên cho các doanh nghiệp, công ty.",
+    features: ["Xe du lịch - Sự kiện", "Xe cưới hỏi sang trọng", "Hợp đồng công ty"],
+  },
+  {
+    icon: Plane,
+    title: "Đưa Đón Sân Bay",
+    description: "Dịch vụ đưa đón sân bay Nội Bài chuyên nghiệp. Tài xế đón đúng giờ, hỗ trợ khuân vác hành lý chu đáo từ A-Z.",
+    features: ["Nội Bài - Thái Nguyên", "Đưa đón nhanh chóng", "Phục vụ 24/7 kể cả đêm"],
+  },
+  {
+    icon: Zap,
+    title: "Chuyển Phát Hỏa Tốc",
+    description: "Gửi đồ ship hỏa tốc giữa Thái Nguyên - Hà Nội - Sân bay Nội Bài. Giao nhận hàng hóa tận tay an toàn, siêu tốc.",
+    features: ["Nhận hàng tận tay", "Giao ngay trong ngày", "An toàn - Đúng hẹn"],
   },
 ];
 

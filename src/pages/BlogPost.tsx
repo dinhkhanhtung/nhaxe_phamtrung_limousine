@@ -33,14 +33,14 @@ const BlogPost = () => {
 
     useEffect(() => {
         if (blog) {
-            document.title = `${blog.title} | Thuê Xe Nguyễn Hà`;
+            document.title = `${blog.title} | Nhà Xe Phạm Trung Limousine`;
             const meta = document.querySelector('meta[name="description"]');
             if (meta) meta.setAttribute("content", blog.excerpt);
         }
         return () => {
-            document.title = "Thuê Xe Nguyễn Hà - Dịch Vụ Thuê Xe Đa Dạng & Chuyên Nghiệp";
+            document.title = "NHÀ XE PHẠM TRUNG LIMOUSINE - Hạng Thương Gia VIP - Xe Ghép 24/7";
             const meta = document.querySelector('meta[name="description"]');
-            if (meta) meta.setAttribute("content", "Thuê Xe Nguyễn Hà - Dịch vụ thuê xe đa dạng: du lịch, cưới, sân bay, hợp đồng. Xe hiện đại, tài xế chuyên nghiệp, giá cạnh tranh tại Thái Nguyên.");
+            if (meta) meta.setAttribute("content", "Nhà Xe Phạm Trung Limousine chuyên cung cấp dịch vụ xe ghép 24/7 Thái Nguyên - Hà Nội - Sân bay Nội Bài & các tỉnh. Đón tận nhà, trả tận nơi, phục vụ chu đáo, uy tín.");
         };
     }, [slug, blog]);
 
@@ -273,12 +273,12 @@ const BlogPost = () => {
                             {/* CTA Box */}
                             <div className="card-premium p-5 rounded-xl border border-primary/20 bg-primary/5">
                                 <h3 className="font-semibold text-white mb-2 text-sm">Cần đặt xe ngay?</h3>
-                                <p className="text-xs text-muted-foreground mb-4">Tư vấn miễn phí, báo giá nhanh trong 5 phút.</p>
+                                <p className="text-xs text-muted-foreground mb-4">Tư vấn đặt vé xe ghép, bao xe nhanh chóng 24/7.</p>
                                 <a
-                                    href="tel:0868752888"
+                                    href="tel:0981528528"
                                     className="flex items-center justify-center gap-2 bg-primary text-primary-foreground text-sm font-semibold py-2.5 px-4 rounded-lg hover:bg-primary/90 transition-colors w-full"
                                 >
-                                    📞 0868 752 888
+                                    📞 0981 528 528
                                 </a>
                             </div>
                         </aside>

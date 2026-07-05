@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Nguyễn Hà Premium Car Rental Design System
+/* Phạm Trung Limousine VIP Design System
    Navy Blue + Gold palette with luxury dark theme
    All colors in HSL format
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
 

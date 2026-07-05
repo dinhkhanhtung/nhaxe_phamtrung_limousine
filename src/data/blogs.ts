@@ -44,7 +44,7 @@ export const blogs: BlogPost[] = [
         <li>Lưu số điện thoại của đơn vị cho thuê xe để liên lạc khi cần.</li>
       </ul>
 
-      <p>Nguyễn Hà Car Rental cam kết <strong>minh bạch giá cả, an toàn tuyệt đối</strong>. Gọi ngay <strong>0868 752 888</strong> để được tư vấn chuyến đi phù hợp nhất!</p>
+      <p>Phạm Trung Limousine cam kết <strong>minh bạch giá cả, an toàn tuyệt đối</strong>. Gọi ngay <strong>0981 528 528</strong> để được tư vấn chuyến đi phù hợp nhất!</p>
     `,
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=1000",
     date: "15/03/2025",
@@ -98,7 +98,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Tôm cuốn Thừa Lâm:</strong> Món ăn thanh tao, tinh tế.</li>
       </ul>
 
-      <p>Để chuyến du lịch trọn vẹn, hãy liên hệ <strong>Nguyễn Hà Car Rental</strong> để đặt xe đưa đón tận nơi. Gọi <strong>0868 752 888</strong>!</p>
+      <p>Để chuyến du lịch trọn vẹn, hãy liên hệ <strong>Phạm Trung Limousine</strong> để đặt xe đưa đón tận nơi. Gọi <strong>0981 528 528</strong>!</p>
     `,
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=1000",
     date: "12/03/2025",
@@ -136,24 +136,24 @@ export const blogs: BlogPost[] = [
         <li>Nhóm 3-4 người: Thuê bao xe 4-7 chỗ tính đầu người ngang giá xe Limousine nhưng tiện lợi hơn (đón trả tận cửa nhà).</li>
       </ul>
 
-      <h2>Quy trình đặt xe sân bay tại Nguyễn Hà</h2>
+      <h2>Quy trình đặt xe sân bay tại Phạm Trung Limousine</h2>
       <ol>
         <li><strong>Bước 1:</strong> Cung cấp: Ngày giờ hạ cánh, mã chuyến bay, số lượng khách + hành lý, điểm trả tại Thái Nguyên.</li>
-        <li><strong>Bước 2:</strong> Nhân viên tư vấn loại xe phù hợp và chốt giá trọn gói.</li>
+        <li><strong>Bước 2:</strong> Nhân viên tư vấn dịch vụ ghép xe hoặc xe riêng phù hợp và chốt giá trọn gói.</li>
         <li><strong>Bước 3:</strong> Tài xế liên hệ xác nhận trước giờ đón.</li>
-        <li><strong>Bước 4:</strong> Đón khách tại sảnh sân bay (cầm biển tên nếu được yêu cầu).</li>
-        <li><strong>Bước 5:</strong> Trả khách an toàn và thanh toán.</li>
+        <li><strong>Bước 4:</strong> Đón khách tại sảnh sân bay (đúng giờ hẹn).</li>
+        <li><strong>Bước 5:</strong> Trả khách tận nhà tại Thái Nguyên và thanh toán.</li>
       </ol>
 
       <h2>Các tuyến xe sân bay phổ biến</h2>
       <ul>
         <li>Nội Bài - TP Thái Nguyên</li>
-        <li>Nội Bài - KCN Yên Bình (Samsung)</li>
-        <li>Nội Bài - KCN Điềm Thụy</li>
-        <li>Nội Bài - Hồ Núi Cốc</li>
+        <li>Nội Bài - Sông Công, Phổ Yên (Samsung)</li>
+        <li>Nội Bài - Phú Lương, Định Hóa</li>
+        <li>Nội Bài - Võ Nhai, Đại Từ</li>
       </ul>
 
-      <p>Đừng để chặng đường từ sân bay về nhà làm hỏng niềm vui chuyến đi. Hãy để Nguyễn Hà phục vụ bạn với chất lượng 5 sao!</p>
+      <p>Đừng để chặng đường từ sân bay về nhà làm hỏng niềm vui chuyến đi. Hãy để Phạm Trung Limousine phục vụ bạn với chất lượng 5 sao!</p>
     `,
     image: "https://images.unsplash.com/photo-1551927411-95e48c8f3b42?auto=format&fit=crop&q=80&w=1000",
     date: "10/03/2025",
@@ -172,36 +172,27 @@ export const blogs: BlogPost[] = [
       <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=900" alt="Các loại xe thuê" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:360px;" />
       <table style="width:100%;border-collapse:collapse;margin:16px 0;">
         <thead><tr style="background:rgba(200,160,50,0.2);">
-          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:left;">Loại xe</th>
-          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Số chỗ</th>
-          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Giá từ</th>
+          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:left;">Loại dịch vụ</th>
+          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Chi tiết xe</th>
+          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Giá vé lẻ / Bao xe</th>
         </tr></thead>
         <tbody>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Sedan (Vios, Accent)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">4 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">450.000đ</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Toyota Camry</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">5 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">550.000đ</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">VinFast VF7/VF8</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">5 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">600.000đ</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 7 chỗ (Fortuner)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">7 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">750.000đ</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Ford Transit</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">16 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">1.200.000đ</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Mercedes-Benz S-Class</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">5 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">1.500.000đ</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Vé lẻ xe ghép</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Xe đời mới</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">150.000đ/khách</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Bao xe 4 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">VinFast VF8/VF7</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">500.000đ/lượt</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Bao xe 7 chỗ</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Fortuner/Everest</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">650.000đ/lượt</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Bao xe bán tải</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Ford Ranger</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">650.000đ/lượt</td></tr>
         </tbody>
       </table>
-      <p><em>* Giá trọn gói một chiều, đã bao gồm phí cầu đường. Giá có thể thay đổi theo mùa.</em></p>
+      <p><em>* Giá trọn gói đón tận nhà trả tận nơi tuyến Thái Nguyên - Hà Nội, đã bao gồm tất cả chi phí cầu đường.</em></p>
 
-      <h2>Giá thuê xe khứ hồi trong ngày</h2>
+      <h2>Các dịch vụ đi kèm</h2>
       <ul>
-        <li><strong>Sedan 4-5 chỗ:</strong> từ 800.000 - 1.000.000đ/ngày</li>
-        <li><strong>Xe 7 chỗ:</strong> từ 1.200.000 - 1.400.000đ/ngày</li>
-        <li><strong>Xe 16 chỗ:</strong> từ 2.000.000 - 2.200.000đ/ngày</li>
+        <li><strong>Đón trả tận nhà:</strong> Đón khách tận cửa, trả đúng địa điểm theo yêu cầu.</li>
+        <li><strong>Khởi hành liên tục 24/7:</strong> Các chuyến chạy liên tục trong ngày, đáp ứng kịp thời lịch trình của quý khách.</li>
+        <li><strong>Ship đồ hỏa tốc:</strong> Vận chuyển hàng hóa siêu tốc, nhận tận tay giao tận nơi trong ngày.</li>
       </ul>
 
-      <h2>Những yếu tố ảnh hưởng đến giá</h2>
-      <ul>
-        <li><strong>Loại xe:</strong> Xe lớn hơn, sang hơn thì giá cao hơn.</li>
-        <li><strong>Thời gian đặt:</strong> Mùa cao điểm (Lễ, Tết) giá tăng 20-30%.</li>
-        <li><strong>Số lượng khách:</strong> Nhóm đông nên chọn xe lớn để tối ưu chi phí đầu người.</li>
-      </ul>
-
-      <p>Nguyễn Hà cam kết: <strong>Báo giá trọn gói, không phát sinh thêm phí</strong>. Liên hệ hotline <strong>0868 752 888</strong> để nhận báo giá chính xác!</p>
+      <p>Phạm Trung Limousine cam kết: <strong>Báo giá trọn gói, không phát sinh thêm phí</strong>. Liên hệ hotline <strong>0981 528 528</strong> để nhận báo giá và đặt xe ngay!</p>
     `,
     image: "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?auto=format&fit=crop&q=80&w=1000",
     date: "01/03/2026",
@@ -210,40 +201,38 @@ export const blogs: BlogPost[] = [
   },
   {
     title: "Kinh nghiệm thuê xe cưới Thái Nguyên đẹp và không lo về giá",
-    excerpt: "Hướng dẫn từ A đến Z về dịch vụ xe cưới tại Thái Nguyên: cách chọn xe phù hợp, trang trí theo phong cách, đặt xe sớm bao nhiêu là đủ và những lưu ý không thể bỏ qua.",
+    excerpt: "Hướng dẫn từ A đến Z về dịch vụ xe cưới tại Thái Nguyên: cách chọn xe cưới phù hợp, tiết kiệm chi phí và các cam kết từ nhà xe Phạm Trung Limousine.",
     content: `
       <img src="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?auto=format&fit=crop&q=80&w=900" alt="Xe cưới sang trọng" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:400px;" />
       <h2>Xe cưới - Nét đẹp không thể thiếu trong đám cưới</h2>
       <p>Chọn xe cưới là một trong những việc quan trọng nhất khi lên kế hoạch cho ngày trọng đại. Một chiếc xe đẹp, sang trọng không chỉ giúp cô dâu xuất hiện ấn tượng mà còn là "background" hoàn hảo cho những bộ ảnh cưới đáng nhớ.</p>
 
-      <h2>Các dòng xe cưới phổ biến tại Nguyễn Hà</h2>
+      <h2>Các dịch vụ xe hợp đồng cưới hỏi tại Phạm Trung Limousine</h2>
       <img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=900" alt="Xe hoa cô dâu" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:360px;" />
 
-      <h3>1. Xe hoa cô dâu (4-5 chỗ)</h3>
-      <p>Xe rước cô dâu chính. Thường dùng Toyota Camry hoặc Mercedes-Benz. Được trang trí hoa tươi nghệ thuật theo phong cách cô dâu lựa chọn: cổ điển, hiện đại, hay tối giản.</p>
+      <h3>1. Xe hoa cô dâu VIP (4-5 chỗ)</h3>
+      <p>Xe rước cô dâu chính. Sử dụng dòng xe VinFast VF8 hoặc VF7 đời mới sang trọng. Được chuẩn bị chu đáo để ngày vui thêm phần trọn vẹn.</p>
 
-      <h3>2. Xe đón dâu phụ (7 chỗ)</h3>
-      <p>Xe đưa đón phù dâu, gia đình hai bên. Thường dùng Toyota Fortuner hoặc Ford Everest. Trang trí hoa nhẹ nhàng, phối màu đồng bộ với xe hoa chính.</p>
+      <h3>2. Xe gia đình đón dâu (7 chỗ)</h3>
+      <p>Xe đưa đón gia đình hai bên, họ hàng. Thường dùng Toyota Fortuner hoặc Ford Everest. Xe đời mới êm ái, rộng rãi.</p>
 
-      <h3>3. Xe đoàn (16 chỗ)</h3>
-      <p>Ford Transit phục vụ đoàn rước dâu đông người, khách mời đặc biệt. Rộng rãi, phù hợp cho đám cưới quy mô lớn.</p>
+      <h3>3. Xe đoàn ăn hỏi (Bán tải / SUV)</h3>
+      <p>Phục vụ các ngày ăn hỏi, di chuyển đi các tỉnh nhanh chóng, đúng giờ, nhiệt tình.</p>
 
-      <h2>Mẹo chọn xe cưới tiết kiệm nhưng không kém sang</h2>
+      <h2>Mẹo đặt xe cưới tiết kiệm và thuận tiện</h2>
       <ul>
-        <li><strong>Đặt xe sớm ít nhất 2-3 tháng</strong> trước ngày cưới, đặc biệt mùa cưới (tháng 10-12 và tháng 1-2).</li>
-        <li><strong>Thuê trọn gói</strong> cả đoàn xe thường rẻ hơn thuê lẻ từng chiếc.</li>
-        <li><strong>Thống nhất màu sắc trang trí</strong> trước với đơn vị để tránh phát sinh chi phí.</li>
-        <li><strong>Xem xe thực tế</strong> trước khi ký hợp đồng.</li>
+        <li><strong>Đặt xe sớm:</strong> Nên lên kế hoạch đặt xe trước ngày cưới ít nhất 1 tháng để đảm bảo giữ được xe ưng ý nhất.</li>
+        <li><strong>Rõ ràng lộ trình:</strong> Thống nhất thời gian, điểm đón điểm trả rõ ràng để tài xế căn chỉnh thời gian chuẩn xác nhất.</li>
+        <li><strong>Bao trọn gói:</strong> Nên bao trọn gói xe đón dâu để có mức chiết khấu tốt nhất từ nhà xe.</li>
       </ul>
 
-      <h2>Cam kết dịch vụ xe cưới tại Nguyễn Hà</h2>
+      <h2>Cam kết dịch vụ xe cưới tại Phạm Trung Limousine</h2>
       <ul>
-        <li>Vệ sinh, đánh bóng kỹ trước khi nhận xe.</li>
-        <li>Trang trí hoa tươi theo yêu cầu của cô dâu.</li>
-        <li>Tài xế mặc vest lịch sự, đúng giờ tuyệt đối.</li>
-        <li>Hỗ trợ chụp ảnh cùng đoàn xe nếu được yêu cầu.</li>
+        <li>Xe luôn được vệ sinh sạch sẽ, bóng bẩy trước khi đón khách.</li>
+        <li>Tài xế lịch sự, ăn mặc chỉnh tề, đúng giờ tuyệt đối.</li>
+        <li>Lái xe an toàn, điềm đạm, phục vụ chu đáo tận tình.</li>
       </ul>
-      <p>Liên hệ ngay <strong>0868 752 888</strong> để được tư vấn gói xe cưới phù hợp!</p>
+      <p>Liên hệ ngay <strong>0981 528 528</strong> để được tư vấn dịch vụ xe cưới phù hợp!</p>
     `,
     image: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?auto=format&fit=crop&q=80&w=1000",
     date: "20/02/2026",
@@ -268,26 +257,25 @@ export const blogs: BlogPost[] = [
         <li><strong>Linh hoạt:</strong> Điều chỉnh số lượng xe theo mùa vụ, dự án mà không bị ràng buộc tài sản.</li>
       </ul>
 
-      <h2>Các gói xe hợp đồng tại Nguyễn Hà</h2>
-      <h3>Gói đưa đón nhân viên</h3>
-      <p>Phù hợp cho KCN, văn phòng cần đưa đón nhân viên theo ca. Xe đời mới, sức chứa 7-16 chỗ, tài xế đúng giờ.</p>
+      <h2>Các gói xe hợp đồng tại Phạm Trung Limousine</h2>
+      <h3>Gói đưa đón nhân viên KCN</h3>
+      <p>Phù hợp cho các doanh nghiệp, nhà máy tại KCN Yên Bình, KCN Điềm Thụy có nhu cầu đưa đón nhân viên theo ca cố định. Đúng giờ, chu đáo.</p>
 
       <h3>Gói xe công tác</h3>
-      <p>Xe sedan hoặc SUV phục vụ ban lãnh đạo đi công tác. Lịch linh hoạt, có thể đặt theo ngày hoặc theo tháng.</p>
+      <p>Bao xe riêng đi công tác liên tỉnh cho cán bộ quản lý, ban lãnh đạo. Lịch trình linh hoạt theo yêu cầu công việc.</p>
 
       <h3>Gói xe tháng dài hạn</h3>
-      <p>Ký hợp đồng 3-12 tháng được hưởng giá ưu đãi đặc biệt, ưu tiên bố trí xe và tài xế quen theo yêu cầu.</p>
+      <p>Ký hợp đồng thuê xe theo tháng/năm với chiết khấu tốt nhất, tài xế chuyên nghiệp am hiểu đường sá phục vụ nhiệt tình.</p>
 
-      <h2>Quy trình ký hợp đồng</h2>
+      <h2>Quy trình ký hợp đồng xe đơn giản</h2>
       <ol>
-        <li>Doanh nghiệp cung cấp nhu cầu: số xe, loại xe, lịch trình, thời gian hợp đồng.</li>
-        <li>Nguyễn Hà khảo sát và lập báo giá chi tiết trong vòng 24 giờ.</li>
-        <li>Hai bên ký hợp đồng, thống nhất điều khoản.</li>
-        <li>Bàn giao xe và tài xế đúng ngày cam kết.</li>
-        <li>Hỗ trợ 24/7 trong suốt thời gian hợp đồng.</li>
+        <li>Qúy khách liên hệ hotline 0981 528 528 để cung cấp lịch trình chi tiết và số chỗ yêu cầu.</li>
+        <li>Phạm Trung Limousine tư vấn dịch vụ, loại xe phù hợp và lập báo giá chi tiết.</li>
+        <li>Hai bên ký kết hợp đồng nhanh chóng, minh bạch.</li>
+        <li>Bàn giao xe và lái xe phục vụ tận tình theo đúng lịch hẹn.</li>
       </ol>
 
-      <p>Để nhận báo giá phù hợp với quy mô doanh nghiệp, gọi ngay <strong>0868 752 888</strong> hoặc nhắn tin Zalo để được tư vấn miễn phí!</p>
+      <p>Để nhận báo giá và tư vấn xe hợp đồng, gọi ngay hotline <strong>0981 528 528</strong> hoặc nhắn tin Zalo để được phản hồi nhanh nhất!</p>
     `,
     image: "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&q=80&w=1000",
     date: "15/02/2026",
@@ -308,7 +296,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Chủ động hoàn toàn:</strong> Không phụ thuộc lịch xe khách, tự do dừng chân ngắm cảnh dọc đường.</li>
         <li><strong>Thoải mái cho cả nhóm:</strong> Đặc biệt quan trọng nếu có trẻ nhỏ hoặc người cao tuổi đi cùng.</li>
         <li><strong>Đón trả tận nơi:</strong> Xe đón tại nhà, trả tận khách sạn hoặc cảng tàu tại Hạ Long.</li>
-        <li><strong>An toàn hơn:</strong> Tài xế Nguyễn Hà có kinh nghiệm lái đường dài, thuộc đường tuyến Hạ Long.</li>
+        <li><strong>An toàn hơn:</strong> Tài xế Phạm Trung Limousine có nhiều kinh nghiệm lái đường dài, thuộc đường tuyến Hạ Long.</li>
       </ul>
 
       <h2>Gợi ý lịch trình Thái Nguyên - Hạ Long 2N1Đ</h2>
@@ -330,18 +318,17 @@ export const blogs: BlogPost[] = [
       <h2>Bảng giá thuê xe đi Hạ Long (khứ hồi)</h2>
       <table style="width:100%;border-collapse:collapse;margin:16px 0;">
         <thead><tr style="background:rgba(200,160,50,0.2);">
-          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:left;">Loại xe</th>
-          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Giá 2 ngày</th>
+          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:left;">Dòng xe</th>
+          <th style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;">Giá bao xe trọn gói khứ hồi</th>
         </tr></thead>
         <tbody>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 5 chỗ (Camry)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">Liên hệ báo giá</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 7 chỗ (Fortuner)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">Liên hệ báo giá</td></tr>
-          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 16 chỗ (Transit)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">Liên hệ báo giá</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 4 chỗ (VinFast VF8/VF7)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">Liên hệ báo giá tốt nhất</td></tr>
+          <tr><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);">Xe 7 chỗ (Fortuner/Everest)</td><td style="padding:10px;border:1px solid rgba(255,255,255,0.1);text-align:center;color:#C8A032;font-weight:bold;">Liên hệ báo giá tốt nhất</td></tr>
         </tbody>
       </table>
-      <p><em>* Giá trọn gói đã bao gồm phí cầu đường và xăng dầu. Liên hệ để nhận báo giá chính xác.</em></p>
+      <p><em>* Giá trọn gói đã bao gồm toàn bộ phí cầu đường, cao tốc và xăng dầu. Liên hệ để nhận báo giá chính xác.</em></p>
 
-      <p>Hãy để Nguyễn Hà lo toàn bộ khâu di chuyển để bạn tận hưởng kỳ nghỉ tuyệt vời tại Hạ Long! Gọi ngay <strong>0868 752 888</strong>.</p>
+      <p>Hãy để Phạm Trung Limousine lo toàn bộ khâu di chuyển để bạn tận hưởng kỳ nghỉ tuyệt vời tại Hạ Long! Gọi ngay hotline <strong>0981 528 528</strong>.</p>
     `,
     image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&q=80&w=1000",
     date: "10/02/2026",

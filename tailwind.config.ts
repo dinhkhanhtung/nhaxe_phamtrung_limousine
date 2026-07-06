@@ -56,14 +56,14 @@ export default {
           foreground: "hsl(0 0% 100%)",
         },
         gold: {
-          DEFAULT: "hsl(43 74% 49%)",
-          light: "hsl(43 74% 60%)",
-          dark: "hsl(38 70% 40%)",
+          DEFAULT: "hsl(222 75% 54%)",
+          light: "hsl(222 75% 65%)",
+          dark: "hsl(222 70% 40%)",
         },
         navy: {
-          DEFAULT: "hsl(222 47% 11%)",
-          light: "hsl(222 40% 18%)",
-          dark: "hsl(222 47% 6%)",
+          DEFAULT: "hsl(220 20% 11%)",
+          light: "hsl(220 20% 18%)",
+          dark: "hsl(220 20% 7%)",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

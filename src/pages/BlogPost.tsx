@@ -91,7 +91,7 @@ const BlogPost = () => {
     const nextBlog = currentIndex < blogs.length - 1 ? blogs[currentIndex + 1] : null;
 
     return (
-        <div className="min-h-screen bg-background">
+        <div className="min-h-screen bg-background pb-16 md:pb-0">
             <Header />
 
             <main className="pt-24 pb-20">

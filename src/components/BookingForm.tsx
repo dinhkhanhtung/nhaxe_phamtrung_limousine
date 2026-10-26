@@ -5,11 +5,15 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calendar, MapPin, Clock, Car, Send, AlertCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const carTypes = [
   { value: "ghep", label: "Vé lẻ xe ghép Thái Nguyên - Hà Nội (150K/người)" },
+  { value: "tien-chuyen", label: "Xe tiện chuyến giá rẻ (Tiết kiệm 50%)" },
+  { value: "kham-benh", label: "Xe đưa đón đi khám bệnh (Đón tận giường)" },
   { value: "bao-4", label: "Bao xe 4 chỗ (500K/lượt)" },
   { value: "bao-7", label: "Bao xe 7 chỗ (650K/lượt)" },
+  { value: "xe-cuoi", label: "Xe hoa cưới hỏi trang trọng" },
   { value: "ban-tai", label: "Bao xe bán tải (650K/lượt)" },
   { value: "gui-do", label: "Gửi đồ ship hỏa tốc" },
   { value: "hop-dong", label: "Hợp đồng xe (Du lịch, Sự kiện, Công ty)" },
@@ -83,7 +87,7 @@ const BookingForm = () => {
 📱 SĐT liên hệ: ${formData.phone}`;
 
       // Open Zalo with pre-filled message
-      const zaloUrl = `https://zalo.me/0981528528?text=${encodeURIComponent(message)}`;
+      const zaloUrl = `https://zalo.me/${BRAND_CONFIG.zaloPhone}?text=${encodeURIComponent(message)}`;
       window.open(zaloUrl, "_blank");
 
       // Show success message
@@ -129,7 +133,7 @@ const BookingForm = () => {
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="card-premium p-8">
+          <form onSubmit={handleSubmit} className="card-premium p-5 md:p-8">
             <div className="grid md:grid-cols-2 gap-6">
               {/* Pickup Location */}
               <div className="space-y-2">

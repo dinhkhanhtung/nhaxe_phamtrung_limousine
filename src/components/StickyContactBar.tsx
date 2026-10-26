@@ -1,11 +1,12 @@
 import { Phone, Calendar } from "lucide-react";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const StickyContactBar = () => {
-  const phoneNumber = "0981528528";
+  const phoneNumber = BRAND_CONFIG.zaloPhone;
   const zaloLink = `https://zalo.me/${phoneNumber}`;
-  const phoneLink = `tel:${phoneNumber}`;
-  const messengerLink = "https://m.me/dinhkhanhtung";
-  const mapLink = "https://www.google.com/maps/search/?api=1&query=Tổ+10+Quan+Triều+Thái+Nguyên";
+  const phoneLink = `tel:${BRAND_CONFIG.hotlineRaw}`;
+  const messengerLink = BRAND_CONFIG.facebookMessenger;
+  const mapLink = BRAND_CONFIG.googleMapsLink;
 
   const handleBookingClick = (e: React.MouseEvent) => {
     e.preventDefault();

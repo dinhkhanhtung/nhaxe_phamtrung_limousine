@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Outfit', 'sans-serif'],
         display: ['Playfair Display', 'serif'],
       },
       colors: {
@@ -116,9 +116,9 @@ export default {
         "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
       backgroundImage: {
-        'gradient-gold': 'linear-gradient(135deg, hsl(43 74% 55%), hsl(38 70% 45%))',
-        'gradient-navy': 'linear-gradient(180deg, hsl(222 47% 8%), hsl(222 47% 4%))',
-        'gradient-card': 'linear-gradient(145deg, hsl(222 40% 12%), hsl(222 40% 8%))',
+        'gradient-gold': 'var(--gradient-gold)',
+        'gradient-navy': 'var(--gradient-navy)',
+        'gradient-card': 'var(--gradient-card)',
       },
       boxShadow: {
         'gold': '0 4px 30px hsl(43 74% 49% / 0.15)',

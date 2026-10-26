@@ -1,4 +1,5 @@
 import { Phone, MapPin, Clock } from "lucide-react";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const Footer = () => {
   return (
@@ -8,14 +9,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <h3 className="font-display text-2xl font-bold mb-4">
-              <span className="text-gold-gradient">Phạm Trung Limousine</span>
+              <span className="text-gold-gradient">{BRAND_CONFIG.name}</span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Dịch vụ xe ghép 24/7 và bao xe riêng tuyến Thái Nguyên - Hà Nội - Sân bay. Hạng thương gia VIP - Uy tín, an toàn, chu đáo.
+              {BRAND_CONFIG.description}
             </p>
             <div className="flex items-center gap-2 text-primary font-semibold">
               <Phone className="w-4 h-4" />
-              <a href="tel:0981528528" className="hover:underline">0981 528 528</a>
+              <a href={`tel:${BRAND_CONFIG.hotlineRaw}`} className="hover:underline">{BRAND_CONFIG.hotline}</a>
             </div>
           </div>
 
@@ -47,11 +48,11 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-muted-foreground">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <span>Tổ 10, Quan Triều, Thái Nguyên</span>
+                <span>{BRAND_CONFIG.address}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:0981528528" className="hover:text-primary transition-colors">0981 528 528</a>
+                <a href={`tel:${BRAND_CONFIG.hotlineRaw}`} className="hover:text-primary transition-colors">{BRAND_CONFIG.hotline}</a>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-primary shrink-0" />
@@ -64,21 +65,21 @@ const Footer = () => {
         {/* Map */}
         <div className="mt-12 rounded-xl overflow-hidden border border-border/30">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.4988636735165!2d105.811802!3d21.605273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135272a80695029%3A0xf6b56bc7f59d57bc!2zUXVhbiBUcmnhu4N1LCBUaMOhaSBOZ3V5w6puLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1706000000000!5m2!1svi!2s"
+            src={BRAND_CONFIG.googleMapsEmbedUrl}
             width="100%"
             height="300"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Phạm Trung Limousine Location"
+            title={`${BRAND_CONFIG.name} Location`}
           />
         </div>
 
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2026 Phạm Trung Limousine. Tất cả quyền được bảo lưu.
+            © 2026 {BRAND_CONFIG.name}. Tất cả quyền được bảo lưu.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Điều khoản</a>

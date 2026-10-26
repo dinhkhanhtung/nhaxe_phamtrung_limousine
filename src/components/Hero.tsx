@@ -1,6 +1,7 @@
-import heroCar from "@/assets/vinfast-black.jpg";
+import heroCar from "@/assets/luxury_black_suv.png";
 import { Button } from "@/components/ui/button";
 import { Phone, ChevronDown } from "lucide-react";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const Hero = () => {
   const scrollToBooking = () => {
@@ -17,7 +18,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroCar}
-          alt="Xe VinFast VIP - Nhà xe Phạm Trung Limousine"
+          alt={`Xe VinFast VIP - Nhà xe ${BRAND_CONFIG.name}`}
           className="w-full h-full object-cover"
         />
         {/* Gradient overlays */}
@@ -36,7 +37,7 @@ const Hero = () => {
 
           {/* Heading */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-foreground">Phạm Trung</span>
+            <span className="text-foreground">{BRAND_CONFIG.shortName}</span>
             <br />
             <span className="text-gold-gradient">Limousine</span>
           </h1>
@@ -48,14 +49,14 @@ const Hero = () => {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="hero" size="xl" onClick={scrollToBooking}>
+          <div className="flex flex-row gap-3 w-full max-w-md animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <Button variant="hero" size="lg" className="flex-1 py-6 text-sm sm:text-base" onClick={scrollToBooking}>
               Đặt Xe Zalo
             </Button>
-            <Button variant="outline" size="xl" className="group" asChild>
-              <a href="tel:0981528528">
-                <Phone className="w-5 h-5" />
-                0981 528 528
+            <Button variant="outline" size="lg" className="flex-1 py-6 text-sm sm:text-base group" asChild>
+              <a href={`tel:${BRAND_CONFIG.hotlineRaw}`}>
+                <Phone className="w-4 h-4 mr-1.5 shrink-0" />
+                {BRAND_CONFIG.hotline}
               </a>
             </Button>
           </div>

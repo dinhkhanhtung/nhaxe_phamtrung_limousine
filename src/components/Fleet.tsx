@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Users, Zap, Crown, Car } from "lucide-react";
-import vinfastWhite from "@/assets/vinfast-white.jpg";
-import vinfastBlack from "@/assets/vinfast-black.jpg";
+import vinfastWhite from "@/assets/luxury_white_sedan.png";
+import vinfastBlack from "@/assets/luxury_black_suv.png";
 
 interface CarType {
   id: string;
@@ -21,7 +21,7 @@ const cars: CarType[] = [
     name: "Vé Lẻ Xe Ghép",
     brand: "Tuyến Thái Nguyên - Hà Nội",
     seats: 5,
-    price: "150K/người",
+    price: "180K - 200K",
     category: "ghep",
     image: vinfastWhite,
     description: "Xe ghép đón tận nhà, trả tận nơi cực kỳ tiện lợi và tiết kiệm. Khởi hành liên tục 24/7.",
@@ -31,7 +31,7 @@ const cars: CarType[] = [
     name: "Bao Xe 4 Chỗ",
     brand: "Xe điện VinFast VF8/VF7 VIP",
     seats: 5,
-    price: "500K/lượt",
+    price: "600K/lượt",
     category: "bao",
     image: vinfastBlack,
     description: "Không gian riêng tư, sang trọng, đẳng cấp thương gia. Thích hợp đi công tác, đưa đón đối tác.",
@@ -41,23 +41,53 @@ const cars: CarType[] = [
     name: "Bao Xe 7 Chỗ",
     brand: "SUV Fortuner / Everest",
     seats: 7,
-    price: "650K/lượt",
+    price: "750K/lượt",
     category: "bao",
     image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&auto=format&fit=crop&q=60",
     description: "Xe SUV 7 chỗ gầm cao, khoang hành khách và hành lý cực kỳ rộng rãi cho gia đình và nhóm bạn.",
   },
   {
     id: "4",
+    name: "Xe Tiện Chuyến Giá Rẻ",
+    brand: "Tận dụng chiều về trống khách",
+    seats: 5,
+    price: "Tiết kiệm 50%",
+    category: "ghep",
+    image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&auto=format&fit=crop&q=60",
+    description: "Tận dụng xe chạy rỗng chiều về giúp hành khách tiết kiệm đến 50% chi phí so với thuê xe riêng thông thường.",
+  },
+  {
+    id: "5",
+    name: "Xe Đưa Đón Khám Bệnh",
+    brand: "Thái Nguyên ↔ Bệnh viện Hà Nội",
+    seats: 5,
+    price: "Giá hỗ trợ",
+    category: "other",
+    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=60",
+    description: "Khởi hành từ 3-4h sáng, tài xế đón tận giường ngủ, đưa trả trực tiếp bệnh viện và hỗ trợ chờ đón về trong ngày.",
+  },
+  {
+    id: "6",
+    name: "Xe Hoa Cưới Hỏi",
+    brand: "Trang trí sang trọng lộng lẫy",
+    seats: 5,
+    price: "Giá thỏa thuận",
+    category: "other",
+    image: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?w=600&auto=format&fit=crop&q=60",
+    description: "Dàn xe hoa đời mới sang trọng, trang trí hoa cưới lộng lẫy phục vụ lễ ăn hỏi, đón dâu đúng giờ hẹn.",
+  },
+  {
+    id: "7",
     name: "Bao Xe Bán Tải",
     brand: "Ford Ranger / Hilux",
     seats: 5,
-    price: "650K/lượt",
+    price: "750K/lượt",
     category: "bao",
     image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
     description: "Dòng xe bán tải đời mới khỏe khoắn, gầm cao, tải đồ thoải mái cho các hành trình đa dụng.",
   },
   {
-    id: "5",
+    id: "8",
     name: "Gửi Đồ Ship Hỏa Tốc",
     brand: "Giao nhận tận nơi 24/7",
     seats: 0,
@@ -113,11 +143,11 @@ const Fleet = () => {
         </div>
 
         {/* Car grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="flex overflow-x-auto pb-6 gap-6 snap-x snap-mandatory scrollbar-none md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:pb-0">
           {filteredCars.map((car) => (
             <div
               key={car.id}
-              className="card-premium overflow-hidden group flex flex-col justify-between"
+              className="card-premium overflow-hidden group flex flex-col justify-between w-[85vw] sm:w-[300px] shrink-0 snap-start md:w-auto md:shrink"
             >
               <div>
                 {/* Image */}

@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const testimonials = [
   {
     id: 1,
     name: "Anh Minh Tuấn",
     role: "Khách đi xe ghép thường xuyên",
-    content: "Dịch vụ xe ghép của nhà xe Phạm Trung Limousine rất chuyên nghiệp. Đón tận nhà, trả tận nơi tuyến Thái Nguyên - Hà Nội nhanh chóng, giá cả quá hợp lý.",
+    content: `Dịch vụ xe ghép của nhà xe ${BRAND_CONFIG.name} rất chuyên nghiệp. Đón tận nhà, trả tận nơi tuyến Thái Nguyên - Hà Nội nhanh chóng, giá cả quá hợp lý.`,
     rating: 5,
     avatar: "MT",
   },
@@ -14,7 +15,7 @@ const testimonials = [
     id: 2,
     name: "Chị Thu Hương",
     role: "Giáo viên (Hà Nội)",
-    content: "Tôi hay đi công tác Thái Nguyên - Hà Nội, lựa chọn xe ghép Phạm Trung Limousine là quyết định đúng đắn nhất. Xe đời mới êm ái, tài xế lịch sự và chạy rất an toàn.",
+    content: `Tôi hay đi công tác Thái Nguyên - Hà Nội, lựa chọn xe ghép ${BRAND_CONFIG.name} là quyết định đúng đắn nhất. Xe đời mới êm ái, tài xế lịch sự và chạy rất an toàn.`,
     rating: 5,
     avatar: "TH",
   },
@@ -30,7 +31,7 @@ const testimonials = [
     id: 4,
     name: "Chị Lan Anh",
     role: "Nhân viên văn phòng",
-    content: "Đặt xe đưa đón đi sân bay Nội Bài của Phạm Trung Limousine, đi xe riêng tư thoải mái, sạch sẽ và đúng hẹn tuyệt đối. Sẽ tiếp tục ủng hộ lâu dài.",
+    content: `Đặt xe đưa đón đi sân bay Nội Bài của ${BRAND_CONFIG.name}, đi xe riêng tư thoải mái, sạch sẽ và đúng hẹn tuyệt đối. Sẽ tiếp tục ủng hộ lâu dài.`,
     rating: 5,
     avatar: "LA",
   },

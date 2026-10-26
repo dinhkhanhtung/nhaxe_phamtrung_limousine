@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { blogs } from "@/data/blogs";
 import { ArrowRight, Calendar, User } from "lucide-react";
+import { BRAND_CONFIG } from "@/config/brand";
 
 const BlogSection = () => {
     const navigate = useNavigate();
@@ -18,17 +19,17 @@ const BlogSection = () => {
                             Tin Tức & <span className="text-gold-gradient">Cẩm Nang</span>
                         </h2>
                         <p className="text-muted-foreground text-lg">
-                            Thông tin hữu ích, kinh nghiệm du lịch và các ưu đãi mới nhất từ Nguyễn Hà Premium Car Rental.
+                            Thông tin hữu ích, kinh nghiệm du lịch và các ưu đãi mới nhất từ {BRAND_CONFIG.name}.
                         </p>
                     </div>
                 </div>
 
                 {/* Featured 3 bài đầu */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div className="flex overflow-x-auto pb-6 gap-8 snap-x snap-mandatory scrollbar-none md:grid md:grid-cols-3 md:pb-0">
                     {featuredBlogs.map((blog, index) => (
                         <article
                             key={index}
-                            className="group card-premium flex flex-col h-full cursor-pointer hover:-translate-y-2 transition-transform duration-300"
+                            className="group card-premium flex flex-col h-full cursor-pointer hover:-translate-y-2 transition-transform duration-300 w-[85vw] sm:w-[320px] shrink-0 snap-start md:w-auto md:shrink"
                             onClick={() => navigate(`/blog/${blog.slug}`)}
                         >
                             <div className="relative aspect-video overflow-hidden">
@@ -70,11 +71,11 @@ const BlogSection = () => {
 
                 {/* 3 bài tiếp theo dạng compact */}
                 {moreBlogs.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                    <div className="flex overflow-x-auto pb-6 gap-5 snap-x snap-mandatory scrollbar-none md:grid md:grid-cols-3 md:pb-0">
                         {moreBlogs.map((blog, index) => (
                             <article
                                 key={index}
-                                className="group card-premium flex gap-4 cursor-pointer hover:bg-secondary/60 transition-colors duration-300 p-4"
+                                className="group card-premium flex gap-4 cursor-pointer hover:bg-secondary/60 transition-colors duration-300 p-4 w-[80vw] sm:w-[300px] shrink-0 snap-start md:w-auto md:shrink"
                                 onClick={() => navigate(`/blog/${blog.slug}`)}
                             >
                                 <div className="relative w-24 h-20 flex-shrink-0 overflow-hidden rounded-lg">

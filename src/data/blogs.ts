@@ -44,7 +44,7 @@ export const blogs: BlogPost[] = [
         <li>Lưu số điện thoại của đơn vị cho thuê xe để liên lạc khi cần.</li>
       </ul>
 
-      <p>Phạm Trung Limousine cam kết <strong>minh bạch giá cả, an toàn tuyệt đối</strong>. Gọi ngay <strong>0981 528 528</strong> để được tư vấn chuyến đi phù hợp nhất!</p>
+      <p>Nhà xe Kim Cương cam kết <strong>minh bạch giá cả, an toàn tuyệt đối</strong>. Gọi ngay <strong>0969 862 333</strong> để được tư vấn chuyến đi phù hợp nhất!</p>
     `,
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80&w=1000",
     date: "15/03/2025",
@@ -98,7 +98,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Tôm cuốn Thừa Lâm:</strong> Món ăn thanh tao, tinh tế.</li>
       </ul>
 
-      <p>Để chuyến du lịch trọn vẹn, hãy liên hệ <strong>Phạm Trung Limousine</strong> để đặt xe đưa đón tận nơi. Gọi <strong>0981 528 528</strong>!</p>
+      <p>Để chuyến du lịch trọn vẹn, hãy liên hệ <strong>Nhà xe Kim Cương</strong> để đặt xe đưa đón tận nơi. Gọi <strong>0969 862 333</strong>!</p>
     `,
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=1000",
     date: "12/03/2025",
@@ -136,7 +136,7 @@ export const blogs: BlogPost[] = [
         <li>Nhóm 3-4 người: Thuê bao xe 4-7 chỗ tính đầu người ngang giá xe Limousine nhưng tiện lợi hơn (đón trả tận cửa nhà).</li>
       </ul>
 
-      <h2>Quy trình đặt xe sân bay tại Phạm Trung Limousine</h2>
+      <h2>Quy trình đặt xe sân bay tại Nhà xe Kim Cương</h2>
       <ol>
         <li><strong>Bước 1:</strong> Cung cấp: Ngày giờ hạ cánh, mã chuyến bay, số lượng khách + hành lý, điểm trả tại Thái Nguyên.</li>
         <li><strong>Bước 2:</strong> Nhân viên tư vấn dịch vụ ghép xe hoặc xe riêng phù hợp và chốt giá trọn gói.</li>
@@ -153,7 +153,7 @@ export const blogs: BlogPost[] = [
         <li>Nội Bài - Võ Nhai, Đại Từ</li>
       </ul>
 
-      <p>Đừng để chặng đường từ sân bay về nhà làm hỏng niềm vui chuyến đi. Hãy để Phạm Trung Limousine phục vụ bạn với chất lượng 5 sao!</p>
+      <p>Đừng để chặng đường từ sân bay về nhà làm hỏng niềm vui chuyến đi. Hãy để Nhà xe Kim Cương phục vụ bạn với chất lượng 5 sao!</p>
     `,
     image: "https://images.unsplash.com/photo-1551927411-95e48c8f3b42?auto=format&fit=crop&q=80&w=1000",
     date: "10/03/2025",
@@ -192,7 +192,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Ship đồ hỏa tốc:</strong> Vận chuyển hàng hóa siêu tốc, nhận tận tay giao tận nơi trong ngày.</li>
       </ul>
 
-      <p>Phạm Trung Limousine cam kết: <strong>Báo giá trọn gói, không phát sinh thêm phí</strong>. Liên hệ hotline <strong>0981 528 528</strong> để nhận báo giá và đặt xe ngay!</p>
+      <p>Nhà xe Kim Cương cam kết: <strong>Báo giá trọn gói, không phát sinh thêm phí</strong>. Liên hệ hotline <strong>0969 862 333</strong> để nhận báo giá và đặt xe ngay!</p>
     `,
     image: "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?auto=format&fit=crop&q=80&w=1000",
     date: "01/03/2026",
@@ -201,13 +201,13 @@ export const blogs: BlogPost[] = [
   },
   {
     title: "Kinh nghiệm thuê xe cưới Thái Nguyên đẹp và không lo về giá",
-    excerpt: "Hướng dẫn từ A đến Z về dịch vụ xe cưới tại Thái Nguyên: cách chọn xe cưới phù hợp, tiết kiệm chi phí và các cam kết từ nhà xe Phạm Trung Limousine.",
+    excerpt: "Hướng dẫn từ A đến Z về dịch vụ xe cưới tại Thái Nguyên: cách chọn xe cưới phù hợp, tiết kiệm chi phí và các cam kết từ nhà xe Nhà xe Kim Cương.",
     content: `
       <img src="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?auto=format&fit=crop&q=80&w=900" alt="Xe cưới sang trọng" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:400px;" />
       <h2>Xe cưới - Nét đẹp không thể thiếu trong đám cưới</h2>
       <p>Chọn xe cưới là một trong những việc quan trọng nhất khi lên kế hoạch cho ngày trọng đại. Một chiếc xe đẹp, sang trọng không chỉ giúp cô dâu xuất hiện ấn tượng mà còn là "background" hoàn hảo cho những bộ ảnh cưới đáng nhớ.</p>
 
-      <h2>Các dịch vụ xe hợp đồng cưới hỏi tại Phạm Trung Limousine</h2>
+      <h2>Các dịch vụ xe hợp đồng cưới hỏi tại Nhà xe Kim Cương</h2>
       <img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&q=80&w=900" alt="Xe hoa cô dâu" style="width:100%;border-radius:12px;margin:16px 0;object-fit:cover;max-height:360px;" />
 
       <h3>1. Xe hoa cô dâu VIP (4-5 chỗ)</h3>
@@ -226,13 +226,13 @@ export const blogs: BlogPost[] = [
         <li><strong>Bao trọn gói:</strong> Nên bao trọn gói xe đón dâu để có mức chiết khấu tốt nhất từ nhà xe.</li>
       </ul>
 
-      <h2>Cam kết dịch vụ xe cưới tại Phạm Trung Limousine</h2>
+      <h2>Cam kết dịch vụ xe cưới tại Nhà xe Kim Cương</h2>
       <ul>
         <li>Xe luôn được vệ sinh sạch sẽ, bóng bẩy trước khi đón khách.</li>
         <li>Tài xế lịch sự, ăn mặc chỉnh tề, đúng giờ tuyệt đối.</li>
         <li>Lái xe an toàn, điềm đạm, phục vụ chu đáo tận tình.</li>
       </ul>
-      <p>Liên hệ ngay <strong>0981 528 528</strong> để được tư vấn dịch vụ xe cưới phù hợp!</p>
+      <p>Liên hệ ngay <strong>0969 862 333</strong> để được tư vấn dịch vụ xe cưới phù hợp!</p>
     `,
     image: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?auto=format&fit=crop&q=80&w=1000",
     date: "20/02/2026",
@@ -257,7 +257,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Linh hoạt:</strong> Điều chỉnh số lượng xe theo mùa vụ, dự án mà không bị ràng buộc tài sản.</li>
       </ul>
 
-      <h2>Các gói xe hợp đồng tại Phạm Trung Limousine</h2>
+      <h2>Các gói xe hợp đồng tại Nhà xe Kim Cương</h2>
       <h3>Gói đưa đón nhân viên KCN</h3>
       <p>Phù hợp cho các doanh nghiệp, nhà máy tại KCN Yên Bình, KCN Điềm Thụy có nhu cầu đưa đón nhân viên theo ca cố định. Đúng giờ, chu đáo.</p>
 
@@ -269,13 +269,13 @@ export const blogs: BlogPost[] = [
 
       <h2>Quy trình ký hợp đồng xe đơn giản</h2>
       <ol>
-        <li>Qúy khách liên hệ hotline 0981 528 528 để cung cấp lịch trình chi tiết và số chỗ yêu cầu.</li>
-        <li>Phạm Trung Limousine tư vấn dịch vụ, loại xe phù hợp và lập báo giá chi tiết.</li>
+        <li>Qúy khách liên hệ hotline 0969 862 333 để cung cấp lịch trình chi tiết và số chỗ yêu cầu.</li>
+        <li>Nhà xe Kim Cương tư vấn dịch vụ, loại xe phù hợp và lập báo giá chi tiết.</li>
         <li>Hai bên ký kết hợp đồng nhanh chóng, minh bạch.</li>
         <li>Bàn giao xe và lái xe phục vụ tận tình theo đúng lịch hẹn.</li>
       </ol>
 
-      <p>Để nhận báo giá và tư vấn xe hợp đồng, gọi ngay hotline <strong>0981 528 528</strong> hoặc nhắn tin Zalo để được phản hồi nhanh nhất!</p>
+      <p>Để nhận báo giá và tư vấn xe hợp đồng, gọi ngay hotline <strong>0969 862 333</strong> hoặc nhắn tin Zalo để được phản hồi nhanh nhất!</p>
     `,
     image: "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&q=80&w=1000",
     date: "15/02/2026",
@@ -296,7 +296,7 @@ export const blogs: BlogPost[] = [
         <li><strong>Chủ động hoàn toàn:</strong> Không phụ thuộc lịch xe khách, tự do dừng chân ngắm cảnh dọc đường.</li>
         <li><strong>Thoải mái cho cả nhóm:</strong> Đặc biệt quan trọng nếu có trẻ nhỏ hoặc người cao tuổi đi cùng.</li>
         <li><strong>Đón trả tận nơi:</strong> Xe đón tại nhà, trả tận khách sạn hoặc cảng tàu tại Hạ Long.</li>
-        <li><strong>An toàn hơn:</strong> Tài xế Phạm Trung Limousine có nhiều kinh nghiệm lái đường dài, thuộc đường tuyến Hạ Long.</li>
+        <li><strong>An toàn hơn:</strong> Tài xế Nhà xe Kim Cương có nhiều kinh nghiệm lái đường dài, thuộc đường tuyến Hạ Long.</li>
       </ul>
 
       <h2>Gợi ý lịch trình Thái Nguyên - Hạ Long 2N1Đ</h2>
@@ -328,7 +328,7 @@ export const blogs: BlogPost[] = [
       </table>
       <p><em>* Giá trọn gói đã bao gồm toàn bộ phí cầu đường, cao tốc và xăng dầu. Liên hệ để nhận báo giá chính xác.</em></p>
 
-      <p>Hãy để Phạm Trung Limousine lo toàn bộ khâu di chuyển để bạn tận hưởng kỳ nghỉ tuyệt vời tại Hạ Long! Gọi ngay hotline <strong>0981 528 528</strong>.</p>
+      <p>Hãy để Nhà xe Kim Cương lo toàn bộ khâu di chuyển để bạn tận hưởng kỳ nghỉ tuyệt vời tại Hạ Long! Gọi ngay hotline <strong>0969 862 333</strong>.</p>
     `,
     image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&q=80&w=1000",
     date: "10/02/2026",

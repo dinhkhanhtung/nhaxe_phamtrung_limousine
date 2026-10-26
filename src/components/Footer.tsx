@@ -8,14 +8,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <h3 className="font-display text-2xl font-bold mb-4">
-              <span className="text-gold-gradient">Phạm Trung Limousine</span>
+              <span className="text-gold-gradient">Nhà Xe Kim Cương</span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Dịch vụ xe ghép 24/7 và bao xe riêng tuyến Thái Nguyên - Hà Nội - Sân bay. Hạng thương gia VIP - Uy tín, an toàn, chu đáo.
+              Dịch vụ xe chung Thái Nguyên - Hải Phòng tần suất 45p/chuyến qua cao tốc 5B và xe ghép Thái Nguyên - Hà Nội 24/7. Uy tín, an toàn, chu đáo.
             </p>
             <div className="flex items-center gap-2 text-primary font-semibold">
               <Phone className="w-4 h-4" />
-              <a href="tel:0981528528" className="hover:underline">0981 528 528</a>
+              <a href="tel:0969862333" className="hover:underline">0969 862 333</a>
             </div>
           </div>
 
@@ -51,7 +51,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:0981528528" className="hover:text-primary transition-colors">0981 528 528</a>
+                <a href="tel:0969862333" className="hover:text-primary transition-colors">0969 862 333</a>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-4 h-4 text-primary shrink-0 flex items-center justify-center font-bold text-sm">✉</span>
+                <a href="mailto:Hoixechung@gmail.com" className="hover:text-primary transition-colors">Hoixechung@gmail.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-primary shrink-0" />
@@ -71,14 +75,14 @@ const Footer = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Phạm Trung Limousine Location"
+            title="Nhà Xe Kim Cương Location"
           />
         </div>
 
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2026 Phạm Trung Limousine. Tất cả quyền được bảo lưu.
+            © 2026 Nhà Xe Kim Cương. Tất cả quyền được bảo lưu.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Điều khoản</a>

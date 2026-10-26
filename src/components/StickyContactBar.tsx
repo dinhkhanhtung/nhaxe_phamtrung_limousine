@@ -1,7 +1,7 @@
 import { Phone, Calendar } from "lucide-react";
 
 const StickyContactBar = () => {
-  const phoneNumber = "0981528528";
+  const phoneNumber = "0969862333";
   const zaloLink = `https://zalo.me/${phoneNumber}`;
   const phoneLink = `tel:${phoneNumber}`;
   const messengerLink = "https://m.me/dinhkhanhtung";

@@ -7,12 +7,17 @@ import { Calendar, MapPin, Clock, Car, Send, AlertCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const carTypes = [
-  { value: "ghep", label: "Vé lẻ xe ghép Thái Nguyên - Hà Nội (150K/người)" },
-  { value: "bao-4", label: "Bao xe 4 chỗ (500K/lượt)" },
-  { value: "bao-7", label: "Bao xe 7 chỗ (650K/lượt)" },
-  { value: "ban-tai", label: "Bao xe bán tải (650K/lượt)" },
-  { value: "gui-do", label: "Gửi đồ ship hỏa tốc" },
-  { value: "hop-dong", label: "Hợp đồng xe (Du lịch, Sự kiện, Công ty)" },
+  { value: "ghep-tn-hp-1", label: "Vé ghép lẻ Thái Nguyên - Hải Phòng (600K/vé)" },
+  { value: "ghep-tn-hp-2", label: "2 vé đi cùng đón/xuống 1 điểm (1100K)" },
+  { value: "ghep-tn-hp-3", label: "3 vé đi cùng tính bao xe (1500K)" },
+  { value: "bao-4-tn-hp-1", label: "Bao xe 4 chỗ TN - HP 1 chiều (1500K)" },
+  { value: "bao-4-tn-hp-2", label: "Bao xe 4 chỗ TN - HP 2 chiều (2600K - 2800K)" },
+  { value: "bao-7-tn-hp-1", label: "Bao xe 7 chỗ TN - HP 1 chiều (1750K)" },
+  { value: "bao-7-tn-hp-2", label: "Bao xe 7 chỗ TN - HP 2 chiều (2800K - 3000K)" },
+  { value: "ghep-tn-hn", label: "Vé ghép Thái Nguyên - Hà Nội (200K/vé)" },
+  { value: "bao-4-tn-hn", label: "Bao xe 4 chỗ Thái Nguyên - Hà Nội (X5 - 600K)" },
+  { value: "bao-7-tn-hn", label: "Bao xe 7 chỗ Thái Nguyên - Hà Nội (X7 - 750K)" },
+  { value: "gui-do", label: "Gửi hàng hỏa tốc chuyển phát nhanh (từ 200K)" },
 ];
 
 const BookingForm = () => {
@@ -83,7 +88,7 @@ const BookingForm = () => {
 📱 SĐT liên hệ: ${formData.phone}`;
 
       // Open Zalo with pre-filled message
-      const zaloUrl = `https://zalo.me/0981528528?text=${encodeURIComponent(message)}`;
+      const zaloUrl = `https://zalo.me/0969862333?text=${encodeURIComponent(message)}`;
       window.open(zaloUrl, "_blank");
 
       // Show success message

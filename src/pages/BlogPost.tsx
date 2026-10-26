@@ -33,14 +33,14 @@ const BlogPost = () => {
 
     useEffect(() => {
         if (blog) {
-            document.title = `${blog.title} | Nhà Xe Phạm Trung Limousine`;
+            document.title = `${blog.title} | Nhà Xe Kim Cương`;
             const meta = document.querySelector('meta[name="description"]');
             if (meta) meta.setAttribute("content", blog.excerpt);
         }
         return () => {
-            document.title = "NHÀ XE PHẠM TRUNG LIMOUSINE - Hạng Thương Gia VIP - Xe Ghép 24/7";
+            document.title = "NHÀ XE KIM CƯƠNG - Xe Ghép Thái Nguyên Hải Phòng - Hà Nội VIP";
             const meta = document.querySelector('meta[name="description"]');
-            if (meta) meta.setAttribute("content", "Nhà Xe Phạm Trung Limousine chuyên cung cấp dịch vụ xe ghép 24/7 Thái Nguyên - Hà Nội - Sân bay Nội Bài & các tỉnh. Đón tận nhà, trả tận nơi, phục vụ chu đáo, uy tín.");
+            if (meta) meta.setAttribute("content", "Nhà Xe Kim Cương chuyên cung cấp dịch vụ xe ghép, xe chung Thái Nguyên - Hải Phòng - Hà Nội. Tần suất 45p/chuyến, trọn gói cao tốc mới 5B. Đón tận nhà, trả tận nơi, uy tín.");
         };
     }, [slug, blog]);
 
@@ -275,10 +275,10 @@ const BlogPost = () => {
                                 <h3 className="font-semibold text-white mb-2 text-sm">Cần đặt xe ngay?</h3>
                                 <p className="text-xs text-muted-foreground mb-4">Tư vấn đặt vé xe ghép, bao xe nhanh chóng 24/7.</p>
                                 <a
-                                    href="tel:0981528528"
+                                    href="tel:0969862333"
                                     className="flex items-center justify-center gap-2 bg-primary text-primary-foreground text-sm font-semibold py-2.5 px-4 rounded-lg hover:bg-primary/90 transition-colors w-full"
                                 >
-                                    📞 0981 528 528
+                                    📞 0969 862 333
                                 </a>
                             </div>
                         </aside>

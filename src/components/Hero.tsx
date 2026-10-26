@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroCar}
-          alt="Xe VinFast VIP - Nhà xe Phạm Trung Limousine"
+          alt="Xe Ghép Thái Nguyên Hải Phòng - Nhà xe Kim Cương"
           className="w-full h-full object-cover"
         />
         {/* Gradient overlays */}
@@ -36,15 +36,15 @@ const Hero = () => {
 
           {/* Heading */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-foreground">Phạm Trung</span>
+            <span className="text-foreground">Nhà Xe</span>
             <br />
-            <span className="text-gold-gradient">Limousine</span>
+            <span className="text-gold-gradient">Kim Cương</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Dịch vụ xe ghép 24/7 tuyến Thái Nguyên - Hà Nội - Sân bay & các tỉnh.
-            Đón tận nhà – Trả tận nơi – Khởi hành liên tục. An toàn, uy tín, chuyên nghiệp.
+            Xe chung Thái Nguyên - Hải Phòng tần suất 45p/chuyến, trọn gói cao tốc mới 5B.
+            Xe đời mới – Lái xe nhiệt tình, thân thiện. Ghép xe & bao xe giá tốt nhất!
           </p>
 
           {/* CTAs */}
@@ -53,9 +53,9 @@ const Hero = () => {
               Đặt Xe Zalo
             </Button>
             <Button variant="outline" size="xl" className="group" asChild>
-              <a href="tel:0981528528">
+              <a href="tel:0969862333">
                 <Phone className="w-5 h-5" />
-                0981 528 528
+                0969 862 333
               </a>
             </Button>
           </div>
